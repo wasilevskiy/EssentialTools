@@ -10,6 +10,7 @@ namespace EssentialTools.Models
         public decimal ValueProducts(IEnumerable<Product> products)
         {
             return products.Sum(p => p.Price);
+
         }
     }
 }
