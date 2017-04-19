@@ -11,5 +11,6 @@ namespace EssentialTools.Models
         {
             return products.Sum(p => p.Price);
         }
+ 
     }
 }
